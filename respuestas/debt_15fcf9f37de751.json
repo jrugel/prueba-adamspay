@@ -1,0 +1,99 @@
+{
+    "notify": {
+      "id": 526,
+      "type": "debtStatus",
+      "version": 1,
+      "time": "2020-12-08T15:44:16+00:00",
+      "merchant": "el-mercadi369",
+      "app": "web",
+      "env": "test"
+    },
+    "debt": {
+      "docId": "15fcf9f37de751",
+      "label": "Factura de ventas: 001-002-15fcf9f37de751",
+      "slug": "15fcf9f37de751",
+      "payUrl": "https://staging.adamspay.com/pay/el-mercadi369/debt/15fcf9f37de751",
+      "amount": {
+        "currency": "PYG",
+        "value": "20000.000000",
+        "paid": "20000.000000"
+      },
+      "exchangeMode": null,
+      "target": {
+        "type": null,
+        "number": null,
+        "label": null
+      },
+      "description": null,
+      "validPeriod": {
+        "start": "2020-12-08T15:43:51+00:00",
+        "end": "2020-12-10T15:43:51+00:00"
+      },
+      "payStatus": {
+        "status": "paid",
+        "code": null,
+        "time": "2020-12-08T15:44:16+00:00",
+        "text": null
+      },
+      "statusHash": "bd47e27d48b615ed6f232a43fa786b91",
+      "attr": null,
+      "notifyUrl": null,
+      "uiTheme": null,
+      "objId": "10990",
+      "objStatus": {
+        "status": "success",
+        "code": null,
+        "time": "2020-12-08T15:44:16+00:00",
+        "text": null
+      },
+      "created": "2020-12-08T15:43:52+00:00",
+      "updated": "2020-12-08T15:44:16+00:00",
+      "refs": {
+        "txList": [
+          {
+            "txId": "4408007000865",
+            "type": "debtDocPay",
+            "objStatus": {
+              "status": "success",
+              "code": null,
+              "time": "2020-12-08T15:44:16+00:00",
+              "text": "This is a simulated response"
+            },
+            "provider": "adams",
+            "method": "simulator",
+            "material": "generic",
+            "correlationId": "6dadfac3bd-11024",
+            "providerStatus": {
+              "time": "2020-12-08T15:44:16+00:00",
+              "resultCode": "01",
+              "authCode": "17d1a",
+              "message": "This is a simulated response"
+            },
+            "origAmount": {
+              "currency": "PYG",
+              "value": "20000.000000"
+            },
+            "realAmount": {
+              "currency": "PYG",
+              "value": "20000.000000"
+            },
+            "exchangeRate": null,
+            "initiator": "ui.user",
+            "created": "2020-12-08T15:44:16+00:00",
+            "updated": "2020-12-08T15:44:16+00:00",
+            "expires": "2020-12-08T18:44:16+00:00",
+            "verified": null,
+            "finalized": "2020-12-08T15:44:16+00:00",
+            "objId": "11024"
+          }
+        ],
+        "attachments": []
+      },
+      "meta": {
+        "merchantObjId": "1059",
+        "appObjId": "120",
+        "firstTxObjId": "11024",
+        "lastTxObjId": "11024"
+      }
+    }
+  }
